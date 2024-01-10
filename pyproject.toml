@@ -1,0 +1,10 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "mcc", email = "andi.m.mcclure@gmail.com"},
+]
+license = {text = "MIT"}
+dependencies = []
+requires-python = ">=3.8"
