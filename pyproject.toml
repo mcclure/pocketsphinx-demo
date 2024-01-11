@@ -1,10 +1,16 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "vidskip"
+version = "0.1"
+description = "re-edit video by word"
 authors = [
     {name = "mcc", email = "andi.m.mcclure@gmail.com"},
 ]
 license = {text = "MIT"}
-dependencies = []
+dependencies = [
+    "pocketsphinx>=5.0.3",
+    "click>=8.1.7",
+]
 requires-python = ">=3.8"
+
+[tool.pdm.scripts]
+platform_test = {call = "src.test.basic:run"}

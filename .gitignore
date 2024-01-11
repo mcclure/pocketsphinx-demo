@@ -1,9 +1,11 @@
 # Python
 __pycache__/
-*.egg-info 
+*.egg-info
 
 # pdm
 /.pdm-plugins
 /.pdm-python
 /.venv
 
+# Andi
+/scratch/
